@@ -1,0 +1,14 @@
+var array1=[49, 9, 24, 62, 81, 38, 6, 17, 45, 76, 14, 16, 7, 31, 44, 1, 89, 8, 39, 55, 50, 18, 94, 73, 23]
+var sortedArray= false;
+Do {
+sortedArray = true;
+For var i=0; i<array1.length; i++) }
+If array1[i] > array1 [i+1];
+swap1=array1[i];
+array1[i] = array [i+1]
+array1 [i+1] = swap1;
+sortedarray – false
+}
+} while (sortedArray === false);
+
+console.log('array length: ' + array1.length + ', ran ' + j + ' times');
